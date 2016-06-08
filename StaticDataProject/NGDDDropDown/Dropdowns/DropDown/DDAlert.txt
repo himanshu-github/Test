@@ -1,0 +1,1 @@
+{"AlertsSetting":[{"value":"CM","label":"Career / Education information"},{"value":"SMS","label":"SMS Contacts by Recruiters"},{"value":"PS","label":"Naukrigulf.com partner sites"},{"value":"PM","label":"Other promotions / Offers"},{"value":"CS","label":"Job Alerts and Similar Updates"}]}

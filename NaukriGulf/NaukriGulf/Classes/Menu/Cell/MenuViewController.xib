@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController">
+            <connections>
+                <outlet property="menuTable" destination="12" id="13"/>
+                <outlet property="rightReservedLabel" destination="20" id="eGw-Dv-WeM"/>
+                <outlet property="view" destination="1" id="11"/>
+                <outlet property="visitDesktopSiteLabel" destination="21" id="22"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90196078430000004" blue="0.90588235289999997" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="15"/>
+                        <outlet property="delegate" destination="-1" id="14"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" clipsSubviews="YES" contentMode="left" text="Visit Desktop Site" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                    <rect key="frame" x="20" y="441" width="280" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="dX5-x6-M3t"/>
+                        <constraint firstAttribute="width" constant="280" id="oGQ-2V-E4F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="All rights reserved ©  Info Edge (India) Ltd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                    <rect key="frame" x="20" y="461" width="280" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="ARo-g5-ObZ"/>
+                        <constraint firstAttribute="width" constant="280" id="C4S-mM-SOg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.31764705882352939" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="12" secondAttribute="trailing" id="7yN-1i-7N1"/>
+                <constraint firstAttribute="centerX" secondItem="21" secondAttribute="centerX" id="8Je-Mx-bJb"/>
+                <constraint firstAttribute="bottom" secondItem="20" secondAttribute="bottom" constant="7" id="Jrq-TS-kAI"/>
+                <constraint firstAttribute="bottom" secondItem="12" secondAttribute="bottom" constant="49" id="Nc7-PF-tVa"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="1" secondAttribute="top" id="Vvl-kJ-JKt"/>
+                <constraint firstItem="12" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="eX7-9b-4Me"/>
+                <constraint firstItem="20" firstAttribute="top" secondItem="21" secondAttribute="bottom" constant="4" id="hSs-Da-4oY"/>
+                <constraint firstAttribute="centerX" secondItem="20" secondAttribute="centerX" id="zwu-aU-YEy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="62" y="18"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

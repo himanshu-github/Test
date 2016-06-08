@@ -1,0 +1,1 @@
+{"EmploymentStatus":[{"value":"1","label":"No preference"},{"value":"2","label":"Employee"},{"value":"3","label":"Contract \/ Project"},{"value":"4","label":"Temporary"},{"value":"5","label":"Internship"}]}

@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C096491CBB8AC100C6DB66 /* Desig-FA-Mapping.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3C096481CBB8AC100C6DB66 /* Desig-FA-Mapping.txt */; };
+		A3C096591CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C096521CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.m */; };
+		A3C0965A1CBB97FA00C6DB66 /* FAMapped.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C096541CBB97FA00C6DB66 /* FAMapped.m */; };
+		A3C0965B1CBB97FA00C6DB66 /* Designation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C096561CBB97FA00C6DB66 /* Designation+CoreDataProperties.m */; };
+		A3C0965C1CBB97FA00C6DB66 /* Designation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C096581CBB97FA00C6DB66 /* Designation.m */; };
+		A3C096711CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0966A1CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.m */; };
+		A3C096721CBBCDBF00C6DB66 /* CompanyName.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0966C1CBBCDBF00C6DB66 /* CompanyName.m */; };
+		A3C096731CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0966E1CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.m */; };
+		A3C096741CBBCDBF00C6DB66 /* IndustryAreaMapped.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C096701CBBCDBF00C6DB66 /* IndustryAreaMapped.m */; };
+		A3C096761CBBD40000C6DB66 /* Comp-IA-Mapping.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3C096751CBBD40000C6DB66 /* Comp-IA-Mapping.txt */; };
+		A3EB7D651BA69527003ED8FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D641BA69527003ED8FC /* main.m */; };
+		A3EB7D681BA69527003ED8FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D671BA69527003ED8FC /* AppDelegate.m */; };
+		A3EB7D6B1BA69527003ED8FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D6A1BA69527003ED8FC /* ViewController.m */; };
+		A3EB7D6E1BA69527003ED8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7D6C1BA69527003ED8FC /* Main.storyboard */; };
+		A3EB7D701BA69527003ED8FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7D6F1BA69527003ED8FC /* Images.xcassets */; };
+		A3EB7D731BA69527003ED8FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7D711BA69527003ED8FC /* LaunchScreen.xib */; };
+		A3EB7D7F1BA69527003ED8FC /* NGDDDropDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D7E1BA69527003ED8FC /* NGDDDropDownTests.m */; };
+		A3EB7D8A1BA69587003ED8FC /* NaukriGulf_Static.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D881BA69587003ED8FC /* NaukriGulf_Static.xcdatamodeld */; };
+		A3EB7D8E1BA695C6003ED8FC /* NGDropDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D8D1BA695C6003ED8FC /* NGDropDownModel.m */; };
+		A3EB7DDF1BA69759003ED8FC /* DDAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D971BA69758003ED8FC /* DDAlert.m */; };
+		A3EB7DE01BA69759003ED8FC /* DDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D991BA69758003ED8FC /* DDBase.m */; };
+		A3EB7DE11BA69759003ED8FC /* DDCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D9B1BA69758003ED8FC /* DDCity.m */; };
+		A3EB7DE21BA69759003ED8FC /* DDCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D9D1BA69759003ED8FC /* DDCountry.m */; };
+		A3EB7DE31BA69759003ED8FC /* DDCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7D9F1BA69759003ED8FC /* DDCurrency.m */; };
+		A3EB7DE41BA69759003ED8FC /* DDEmploymentStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DA11BA69759003ED8FC /* DDEmploymentStatus.m */; };
+		A3EB7DE51BA69759003ED8FC /* DDExpMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DA31BA69759003ED8FC /* DDExpMonth.m */; };
+		A3EB7DE61BA69759003ED8FC /* DDExpYear.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DA51BA69759003ED8FC /* DDExpYear.m */; };
+		A3EB7DE71BA69759003ED8FC /* DDFArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DA71BA69759003ED8FC /* DDFArea.m */; };
+		A3EB7DE81BA69759003ED8FC /* DDGender.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DA91BA69759003ED8FC /* DDGender.m */; };
+		A3EB7DE91BA69759003ED8FC /* DDHighestEducation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DAB1BA69759003ED8FC /* DDHighestEducation.m */; };
+		A3EB7DEA1BA69759003ED8FC /* DDIndustryType.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DAD1BA69759003ED8FC /* DDIndustryType.m */; };
+		A3EB7DEB1BA69759003ED8FC /* DDJobType.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DAF1BA69759003ED8FC /* DDJobType.m */; };
+		A3EB7DEC1BA69759003ED8FC /* DDLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DB11BA69759003ED8FC /* DDLanguage.m */; };
+		A3EB7DED1BA69759003ED8FC /* DDLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DB31BA69759003ED8FC /* DDLocation.m */; };
+		A3EB7DEE1BA69759003ED8FC /* DDMaritalStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DB51BA69759003ED8FC /* DDMaritalStatus.m */; };
+		A3EB7DEF1BA69759003ED8FC /* DDNationality.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DB71BA69759003ED8FC /* DDNationality.m */; };
+		A3EB7DF01BA69759003ED8FC /* DDNoticePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DB91BA69759003ED8FC /* DDNoticePeriod.m */; };
+		A3EB7DF11BA69759003ED8FC /* DDPGCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DBB1BA69759003ED8FC /* DDPGCourse.m */; };
+		A3EB7DF21BA69759003ED8FC /* DDPGSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DBD1BA69759003ED8FC /* DDPGSpec.m */; };
+		A3EB7DF31BA69759003ED8FC /* DDPPGCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DBF1BA69759003ED8FC /* DDPPGCourse.m */; };
+		A3EB7DF41BA69759003ED8FC /* DDPPGSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DC11BA69759003ED8FC /* DDPPGSpec.m */; };
+		A3EB7DF51BA69759003ED8FC /* DDPrefLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DC31BA69759003ED8FC /* DDPrefLocation.m */; };
+		A3EB7DF61BA69759003ED8FC /* DDReligion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DC51BA69759003ED8FC /* DDReligion.m */; };
+		A3EB7DF71BA69759003ED8FC /* DDSalaryLacs.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DC71BA69759003ED8FC /* DDSalaryLacs.m */; };
+		A3EB7DF81BA69759003ED8FC /* DDSalaryRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DC91BA69759003ED8FC /* DDSalaryRange.m */; };
+		A3EB7DF91BA69759003ED8FC /* DDUGCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DCB1BA69759003ED8FC /* DDUGCourse.m */; };
+		A3EB7DFA1BA69759003ED8FC /* DDUGSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DCD1BA69759003ED8FC /* DDUGSpec.m */; };
+		A3EB7DFB1BA69759003ED8FC /* DDWorkLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DCF1BA69759003ED8FC /* DDWorkLevel.m */; };
+		A3EB7DFC1BA69759003ED8FC /* DDWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DD11BA69759003ED8FC /* DDWorkStatus.m */; };
+		A3EB7DFD1BA69759003ED8FC /* DropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7DD31BA69759003ED8FC /* DropDown.m */; };
+		A3EB7E1D1BA6989E003ED8FC /* DDAlert.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E031BA6989E003ED8FC /* DDAlert.txt */; };
+		A3EB7E1E1BA6989E003ED8FC /* DDCountry.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E041BA6989E003ED8FC /* DDCountry.txt */; };
+		A3EB7E1F1BA6989E003ED8FC /* DDCurrency.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E051BA6989E003ED8FC /* DDCurrency.txt */; };
+		A3EB7E201BA6989E003ED8FC /* DDEmploymentStatus.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E061BA6989E003ED8FC /* DDEmploymentStatus.txt */; };
+		A3EB7E211BA6989E003ED8FC /* DDExpMonth.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E071BA6989E003ED8FC /* DDExpMonth.txt */; };
+		A3EB7E221BA6989E003ED8FC /* DDExpYear.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E081BA6989E003ED8FC /* DDExpYear.txt */; };
+		A3EB7E231BA6989E003ED8FC /* DDFArea.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E091BA6989E003ED8FC /* DDFArea.txt */; };
+		A3EB7E241BA6989E003ED8FC /* DDGender.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0A1BA6989E003ED8FC /* DDGender.txt */; };
+		A3EB7E251BA6989E003ED8FC /* DDHighestEducation.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0B1BA6989E003ED8FC /* DDHighestEducation.txt */; };
+		A3EB7E261BA6989E003ED8FC /* DDIndustryType.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0C1BA6989E003ED8FC /* DDIndustryType.txt */; };
+		A3EB7E271BA6989E003ED8FC /* DDJobType.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0D1BA6989E003ED8FC /* DDJobType.txt */; };
+		A3EB7E281BA6989E003ED8FC /* DDLanguage.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0E1BA6989E003ED8FC /* DDLanguage.txt */; };
+		A3EB7E291BA6989E003ED8FC /* DDLocation.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E0F1BA6989E003ED8FC /* DDLocation.txt */; };
+		A3EB7E2A1BA6989E003ED8FC /* DDMaritalStatus.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E101BA6989E003ED8FC /* DDMaritalStatus.txt */; };
+		A3EB7E2B1BA6989E003ED8FC /* DDNationality.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E111BA6989E003ED8FC /* DDNationality.txt */; };
+		A3EB7E2C1BA6989E003ED8FC /* DDNoticePeriod.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E121BA6989E003ED8FC /* DDNoticePeriod.txt */; };
+		A3EB7E2D1BA6989E003ED8FC /* DDPGCourse.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E131BA6989E003ED8FC /* DDPGCourse.txt */; };
+		A3EB7E2E1BA6989E003ED8FC /* DDPPGCourse.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E141BA6989E003ED8FC /* DDPPGCourse.txt */; };
+		A3EB7E2F1BA6989E003ED8FC /* DDPrefLocation.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E151BA6989E003ED8FC /* DDPrefLocation.txt */; };
+		A3EB7E301BA6989E003ED8FC /* DDReligion.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E161BA6989E003ED8FC /* DDReligion.txt */; };
+		A3EB7E311BA6989E003ED8FC /* DDSalaryLacs.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E171BA6989E003ED8FC /* DDSalaryLacs.txt */; };
+		A3EB7E321BA6989E003ED8FC /* DDSalaryRange.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E181BA6989E003ED8FC /* DDSalaryRange.txt */; };
+		A3EB7E331BA6989E003ED8FC /* DDUGCourse.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E191BA6989E003ED8FC /* DDUGCourse.txt */; };
+		A3EB7E341BA6989E003ED8FC /* DDWorkLevel.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E1A1BA6989E003ED8FC /* DDWorkLevel.txt */; };
+		A3EB7E351BA6989E003ED8FC /* DDWorkStatus.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E1B1BA6989E003ED8FC /* DDWorkStatus.txt */; };
+		A3EB7E361BA6989E003ED8FC /* DropdownsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7E1C1BA6989E003ED8FC /* DropdownsConfig.plist */; };
+		A3EB7E3B1BA6A01D003ED8FC /* NGDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E3A1BA6A01D003ED8FC /* NGDatabaseHelper.m */; };
+		A3EB7E3F1BA6A0EC003ED8FC /* NGConfigUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E3E1BA6A0EC003ED8FC /* NGConfigUtility.m */; };
+		A3EB7E4C1BA6A1A6003ED8FC /* NSArray+FetchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E431BA6A1A6003ED8FC /* NSArray+FetchObject.m */; };
+		A3EB7E4D1BA6A1A6003ED8FC /* NSDictionary+SetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E461BA6A1A6003ED8FC /* NSDictionary+SetObject.m */; };
+		A3EB7E4E1BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E481BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.m */; };
+		A3EB7E4F1BA6A1A6003ED8FC /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E4B1BA6A1A6003ED8FC /* NSString+Extra.m */; };
+		A3EB7E551BA6A1D7003ED8FC /* BaseStaticContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E521BA6A1D7003ED8FC /* BaseStaticContentManager.m */; };
+		A3EB7E561BA6A1D7003ED8FC /* NGStaticContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E541BA6A1D7003ED8FC /* NGStaticContentManager.m */; };
+		A3EB7E5A1BA6A454003ED8FC /* NGDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E591BA6A454003ED8FC /* NGDateManager.m */; };
+		A3EB7E601BA6A56D003ED8FC /* BaseFileDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E5D1BA6A56D003ED8FC /* BaseFileDataFetcher.m */; };
+		A3EB7E611BA6A56D003ED8FC /* NGFileDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E5F1BA6A56D003ED8FC /* NGFileDataFetcher.m */; };
+		A3EB7E671BA6A67E003ED8FC /* BaseDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E641BA6A67E003ED8FC /* BaseDataParser.m */; };
+		A3EB7E681BA6A67E003ED8FC /* NGStaticContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E661BA6A67E003ED8FC /* NGStaticContentParser.m */; };
+		A3EB7E6C1BA6A702003ED8FC /* StringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7E6B1BA6A702003ED8FC /* StringConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EB7D791BA69527003ED8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EB7D571BA69526003ED8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EB7D5E1BA69527003ED8FC;
+			remoteInfo = NGDDDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3C096481CBB8AC100C6DB66 /* Desig-FA-Mapping.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Desig-FA-Mapping.txt"; sourceTree = "<group>"; };
+		A3C0964A1CBB8C1A00C6DB66 /* NaukriGulf_Static_2(11Feb16).xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "NaukriGulf_Static_2(11Feb16).xcdatamodel"; sourceTree = "<group>"; };
+		A3C096511CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FAMapped+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3C096521CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FAMapped+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3C096531CBB97FA00C6DB66 /* FAMapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMapped.h; sourceTree = "<group>"; };
+		A3C096541CBB97FA00C6DB66 /* FAMapped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMapped.m; sourceTree = "<group>"; };
+		A3C096551CBB97FA00C6DB66 /* Designation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Designation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3C096561CBB97FA00C6DB66 /* Designation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Designation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3C096571CBB97FA00C6DB66 /* Designation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Designation.h; sourceTree = "<group>"; };
+		A3C096581CBB97FA00C6DB66 /* Designation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Designation.m; sourceTree = "<group>"; };
+		A3C096691CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CompanyName+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3C0966A1CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CompanyName+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3C0966B1CBBCDBF00C6DB66 /* CompanyName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyName.h; sourceTree = "<group>"; };
+		A3C0966C1CBBCDBF00C6DB66 /* CompanyName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyName.m; sourceTree = "<group>"; };
+		A3C0966D1CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IndustryAreaMapped+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3C0966E1CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IndustryAreaMapped+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3C0966F1CBBCDBF00C6DB66 /* IndustryAreaMapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndustryAreaMapped.h; sourceTree = "<group>"; };
+		A3C096701CBBCDBF00C6DB66 /* IndustryAreaMapped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndustryAreaMapped.m; sourceTree = "<group>"; };
+		A3C096751CBBD40000C6DB66 /* Comp-IA-Mapping.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Comp-IA-Mapping.txt"; sourceTree = "<group>"; };
+		A3EB7D5F1BA69527003ED8FC /* NGDDDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGDDDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EB7D631BA69527003ED8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EB7D641BA69527003ED8FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3EB7D661BA69527003ED8FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3EB7D671BA69527003ED8FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3EB7D691BA69527003ED8FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3EB7D6A1BA69527003ED8FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3EB7D6D1BA69527003ED8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EB7D6F1BA69527003ED8FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3EB7D721BA69527003ED8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3EB7D781BA69527003ED8FC /* NGDDDropDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGDDDropDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EB7D7D1BA69527003ED8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EB7D7E1BA69527003ED8FC /* NGDDDropDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGDDDropDownTests.m; sourceTree = "<group>"; };
+		A3EB7D891BA69587003ED8FC /* NaukriGulf_Static.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaukriGulf_Static.xcdatamodel; sourceTree = "<group>"; };
+		A3EB7D8C1BA695C6003ED8FC /* NGDropDownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDropDownModel.h; sourceTree = "<group>"; };
+		A3EB7D8D1BA695C6003ED8FC /* NGDropDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDropDownModel.m; sourceTree = "<group>"; };
+		A3EB7D901BA69623003ED8FC /* NGDDDropDown.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGDDDropDown.pch; sourceTree = "<group>"; };
+		A3EB7D961BA69758003ED8FC /* DDAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAlert.h; sourceTree = "<group>"; };
+		A3EB7D971BA69758003ED8FC /* DDAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAlert.m; sourceTree = "<group>"; };
+		A3EB7D981BA69758003ED8FC /* DDBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBase.h; sourceTree = "<group>"; };
+		A3EB7D991BA69758003ED8FC /* DDBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBase.m; sourceTree = "<group>"; };
+		A3EB7D9A1BA69758003ED8FC /* DDCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCity.h; sourceTree = "<group>"; };
+		A3EB7D9B1BA69758003ED8FC /* DDCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCity.m; sourceTree = "<group>"; };
+		A3EB7D9C1BA69758003ED8FC /* DDCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCountry.h; sourceTree = "<group>"; };
+		A3EB7D9D1BA69759003ED8FC /* DDCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCountry.m; sourceTree = "<group>"; };
+		A3EB7D9E1BA69759003ED8FC /* DDCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCurrency.h; sourceTree = "<group>"; };
+		A3EB7D9F1BA69759003ED8FC /* DDCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCurrency.m; sourceTree = "<group>"; };
+		A3EB7DA01BA69759003ED8FC /* DDEmploymentStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEmploymentStatus.h; sourceTree = "<group>"; };
+		A3EB7DA11BA69759003ED8FC /* DDEmploymentStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDEmploymentStatus.m; sourceTree = "<group>"; };
+		A3EB7DA21BA69759003ED8FC /* DDExpMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpMonth.h; sourceTree = "<group>"; };
+		A3EB7DA31BA69759003ED8FC /* DDExpMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExpMonth.m; sourceTree = "<group>"; };
+		A3EB7DA41BA69759003ED8FC /* DDExpYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpYear.h; sourceTree = "<group>"; };
+		A3EB7DA51BA69759003ED8FC /* DDExpYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExpYear.m; sourceTree = "<group>"; };
+		A3EB7DA61BA69759003ED8FC /* DDFArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFArea.h; sourceTree = "<group>"; };
+		A3EB7DA71BA69759003ED8FC /* DDFArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFArea.m; sourceTree = "<group>"; };
+		A3EB7DA81BA69759003ED8FC /* DDGender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGender.h; sourceTree = "<group>"; };
+		A3EB7DA91BA69759003ED8FC /* DDGender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGender.m; sourceTree = "<group>"; };
+		A3EB7DAA1BA69759003ED8FC /* DDHighestEducation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHighestEducation.h; sourceTree = "<group>"; };
+		A3EB7DAB1BA69759003ED8FC /* DDHighestEducation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHighestEducation.m; sourceTree = "<group>"; };
+		A3EB7DAC1BA69759003ED8FC /* DDIndustryType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDIndustryType.h; sourceTree = "<group>"; };
+		A3EB7DAD1BA69759003ED8FC /* DDIndustryType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDIndustryType.m; sourceTree = "<group>"; };
+		A3EB7DAE1BA69759003ED8FC /* DDJobType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDJobType.h; sourceTree = "<group>"; };
+		A3EB7DAF1BA69759003ED8FC /* DDJobType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDJobType.m; sourceTree = "<group>"; };
+		A3EB7DB01BA69759003ED8FC /* DDLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLanguage.h; sourceTree = "<group>"; };
+		A3EB7DB11BA69759003ED8FC /* DDLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLanguage.m; sourceTree = "<group>"; };
+		A3EB7DB21BA69759003ED8FC /* DDLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLocation.h; sourceTree = "<group>"; };
+		A3EB7DB31BA69759003ED8FC /* DDLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLocation.m; sourceTree = "<group>"; };
+		A3EB7DB41BA69759003ED8FC /* DDMaritalStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMaritalStatus.h; sourceTree = "<group>"; };
+		A3EB7DB51BA69759003ED8FC /* DDMaritalStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMaritalStatus.m; sourceTree = "<group>"; };
+		A3EB7DB61BA69759003ED8FC /* DDNationality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNationality.h; sourceTree = "<group>"; };
+		A3EB7DB71BA69759003ED8FC /* DDNationality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNationality.m; sourceTree = "<group>"; };
+		A3EB7DB81BA69759003ED8FC /* DDNoticePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNoticePeriod.h; sourceTree = "<group>"; };
+		A3EB7DB91BA69759003ED8FC /* DDNoticePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNoticePeriod.m; sourceTree = "<group>"; };
+		A3EB7DBA1BA69759003ED8FC /* DDPGCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPGCourse.h; sourceTree = "<group>"; };
+		A3EB7DBB1BA69759003ED8FC /* DDPGCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPGCourse.m; sourceTree = "<group>"; };
+		A3EB7DBC1BA69759003ED8FC /* DDPGSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPGSpec.h; sourceTree = "<group>"; };
+		A3EB7DBD1BA69759003ED8FC /* DDPGSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPGSpec.m; sourceTree = "<group>"; };
+		A3EB7DBE1BA69759003ED8FC /* DDPPGCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPPGCourse.h; sourceTree = "<group>"; };
+		A3EB7DBF1BA69759003ED8FC /* DDPPGCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPPGCourse.m; sourceTree = "<group>"; };
+		A3EB7DC01BA69759003ED8FC /* DDPPGSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPPGSpec.h; sourceTree = "<group>"; };
+		A3EB7DC11BA69759003ED8FC /* DDPPGSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPPGSpec.m; sourceTree = "<group>"; };
+		A3EB7DC21BA69759003ED8FC /* DDPrefLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPrefLocation.h; sourceTree = "<group>"; };
+		A3EB7DC31BA69759003ED8FC /* DDPrefLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPrefLocation.m; sourceTree = "<group>"; };
+		A3EB7DC41BA69759003ED8FC /* DDReligion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDReligion.h; sourceTree = "<group>"; };
+		A3EB7DC51BA69759003ED8FC /* DDReligion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDReligion.m; sourceTree = "<group>"; };
+		A3EB7DC61BA69759003ED8FC /* DDSalaryLacs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSalaryLacs.h; sourceTree = "<group>"; };
+		A3EB7DC71BA69759003ED8FC /* DDSalaryLacs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSalaryLacs.m; sourceTree = "<group>"; };
+		A3EB7DC81BA69759003ED8FC /* DDSalaryRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSalaryRange.h; sourceTree = "<group>"; };
+		A3EB7DC91BA69759003ED8FC /* DDSalaryRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSalaryRange.m; sourceTree = "<group>"; };
+		A3EB7DCA1BA69759003ED8FC /* DDUGCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUGCourse.h; sourceTree = "<group>"; };
+		A3EB7DCB1BA69759003ED8FC /* DDUGCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUGCourse.m; sourceTree = "<group>"; };
+		A3EB7DCC1BA69759003ED8FC /* DDUGSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUGSpec.h; sourceTree = "<group>"; };
+		A3EB7DCD1BA69759003ED8FC /* DDUGSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUGSpec.m; sourceTree = "<group>"; };
+		A3EB7DCE1BA69759003ED8FC /* DDWorkLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWorkLevel.h; sourceTree = "<group>"; };
+		A3EB7DCF1BA69759003ED8FC /* DDWorkLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWorkLevel.m; sourceTree = "<group>"; };
+		A3EB7DD01BA69759003ED8FC /* DDWorkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWorkStatus.h; sourceTree = "<group>"; };
+		A3EB7DD11BA69759003ED8FC /* DDWorkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWorkStatus.m; sourceTree = "<group>"; };
+		A3EB7DD21BA69759003ED8FC /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		A3EB7DD31BA69759003ED8FC /* DropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDown.m; sourceTree = "<group>"; };
+		A3EB7E031BA6989E003ED8FC /* DDAlert.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDAlert.txt; sourceTree = "<group>"; };
+		A3EB7E041BA6989E003ED8FC /* DDCountry.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDCountry.txt; sourceTree = "<group>"; };
+		A3EB7E051BA6989E003ED8FC /* DDCurrency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDCurrency.txt; sourceTree = "<group>"; };
+		A3EB7E061BA6989E003ED8FC /* DDEmploymentStatus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDEmploymentStatus.txt; sourceTree = "<group>"; };
+		A3EB7E071BA6989E003ED8FC /* DDExpMonth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDExpMonth.txt; sourceTree = "<group>"; };
+		A3EB7E081BA6989E003ED8FC /* DDExpYear.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDExpYear.txt; sourceTree = "<group>"; };
+		A3EB7E091BA6989E003ED8FC /* DDFArea.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDFArea.txt; sourceTree = "<group>"; };
+		A3EB7E0A1BA6989E003ED8FC /* DDGender.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDGender.txt; sourceTree = "<group>"; };
+		A3EB7E0B1BA6989E003ED8FC /* DDHighestEducation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDHighestEducation.txt; sourceTree = "<group>"; };
+		A3EB7E0C1BA6989E003ED8FC /* DDIndustryType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDIndustryType.txt; sourceTree = "<group>"; };
+		A3EB7E0D1BA6989E003ED8FC /* DDJobType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDJobType.txt; sourceTree = "<group>"; };
+		A3EB7E0E1BA6989E003ED8FC /* DDLanguage.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDLanguage.txt; sourceTree = "<group>"; };
+		A3EB7E0F1BA6989E003ED8FC /* DDLocation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDLocation.txt; sourceTree = "<group>"; };
+		A3EB7E101BA6989E003ED8FC /* DDMaritalStatus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDMaritalStatus.txt; sourceTree = "<group>"; };
+		A3EB7E111BA6989E003ED8FC /* DDNationality.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDNationality.txt; sourceTree = "<group>"; };
+		A3EB7E121BA6989E003ED8FC /* DDNoticePeriod.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDNoticePeriod.txt; sourceTree = "<group>"; };
+		A3EB7E131BA6989E003ED8FC /* DDPGCourse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDPGCourse.txt; sourceTree = "<group>"; };
+		A3EB7E141BA6989E003ED8FC /* DDPPGCourse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDPPGCourse.txt; sourceTree = "<group>"; };
+		A3EB7E151BA6989E003ED8FC /* DDPrefLocation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDPrefLocation.txt; sourceTree = "<group>"; };
+		A3EB7E161BA6989E003ED8FC /* DDReligion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDReligion.txt; sourceTree = "<group>"; };
+		A3EB7E171BA6989E003ED8FC /* DDSalaryLacs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDSalaryLacs.txt; sourceTree = "<group>"; };
+		A3EB7E181BA6989E003ED8FC /* DDSalaryRange.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDSalaryRange.txt; sourceTree = "<group>"; };
+		A3EB7E191BA6989E003ED8FC /* DDUGCourse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDUGCourse.txt; sourceTree = "<group>"; };
+		A3EB7E1A1BA6989E003ED8FC /* DDWorkLevel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDWorkLevel.txt; sourceTree = "<group>"; };
+		A3EB7E1B1BA6989E003ED8FC /* DDWorkStatus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DDWorkStatus.txt; sourceTree = "<group>"; };
+		A3EB7E1C1BA6989E003ED8FC /* DropdownsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropdownsConfig.plist; sourceTree = "<group>"; };
+		A3EB7E381BA69993003ED8FC /* NGEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGEnum.h; sourceTree = "<group>"; };
+		A3EB7E391BA6A01D003ED8FC /* NGDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDatabaseHelper.h; sourceTree = "<group>"; };
+		A3EB7E3A1BA6A01D003ED8FC /* NGDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDatabaseHelper.m; sourceTree = "<group>"; };
+		A3EB7E3D1BA6A0EC003ED8FC /* NGConfigUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGConfigUtility.h; sourceTree = "<group>"; };
+		A3EB7E3E1BA6A0EC003ED8FC /* NGConfigUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGConfigUtility.m; sourceTree = "<group>"; };
+		A3EB7E421BA6A1A6003ED8FC /* NSArray+FetchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FetchObject.h"; sourceTree = "<group>"; };
+		A3EB7E431BA6A1A6003ED8FC /* NSArray+FetchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FetchObject.m"; sourceTree = "<group>"; };
+		A3EB7E451BA6A1A6003ED8FC /* NSDictionary+SetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SetObject.h"; sourceTree = "<group>"; };
+		A3EB7E461BA6A1A6003ED8FC /* NSDictionary+SetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SetObject.m"; sourceTree = "<group>"; };
+		A3EB7E471BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SetObject.h"; sourceTree = "<group>"; };
+		A3EB7E481BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SetObject.m"; sourceTree = "<group>"; };
+		A3EB7E4A1BA6A1A6003ED8FC /* NSString+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
+		A3EB7E4B1BA6A1A6003ED8FC /* NSString+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
+		A3EB7E511BA6A1D7003ED8FC /* BaseStaticContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStaticContentManager.h; sourceTree = "<group>"; };
+		A3EB7E521BA6A1D7003ED8FC /* BaseStaticContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStaticContentManager.m; sourceTree = "<group>"; };
+		A3EB7E531BA6A1D7003ED8FC /* NGStaticContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGStaticContentManager.h; sourceTree = "<group>"; };
+		A3EB7E541BA6A1D7003ED8FC /* NGStaticContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGStaticContentManager.m; sourceTree = "<group>"; };
+		A3EB7E581BA6A454003ED8FC /* NGDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDateManager.h; sourceTree = "<group>"; };
+		A3EB7E591BA6A454003ED8FC /* NGDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDateManager.m; sourceTree = "<group>"; };
+		A3EB7E5C1BA6A56D003ED8FC /* BaseFileDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileDataFetcher.h; sourceTree = "<group>"; };
+		A3EB7E5D1BA6A56D003ED8FC /* BaseFileDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFileDataFetcher.m; sourceTree = "<group>"; };
+		A3EB7E5E1BA6A56D003ED8FC /* NGFileDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFileDataFetcher.h; sourceTree = "<group>"; };
+		A3EB7E5F1BA6A56D003ED8FC /* NGFileDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFileDataFetcher.m; sourceTree = "<group>"; };
+		A3EB7E631BA6A67E003ED8FC /* BaseDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataParser.h; sourceTree = "<group>"; };
+		A3EB7E641BA6A67E003ED8FC /* BaseDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataParser.m; sourceTree = "<group>"; };
+		A3EB7E651BA6A67E003ED8FC /* NGStaticContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGStaticContentParser.h; sourceTree = "<group>"; };
+		A3EB7E661BA6A67E003ED8FC /* NGStaticContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGStaticContentParser.m; sourceTree = "<group>"; };
+		A3EB7E6A1BA6A702003ED8FC /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = "<group>"; };
+		A3EB7E6B1BA6A702003ED8FC /* StringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringConstants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EB7D5C1BA69527003ED8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EB7D751BA69527003ED8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EB7D561BA69526003ED8FC = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D611BA69527003ED8FC /* NGDDDropDown */,
+				A3EB7D7B1BA69527003ED8FC /* NGDDDropDownTests */,
+				A3EB7D601BA69527003ED8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EB7D601BA69527003ED8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D5F1BA69527003ED8FC /* NGDDDropDown.app */,
+				A3EB7D781BA69527003ED8FC /* NGDDDropDownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EB7D611BA69527003ED8FC /* NGDDDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D661BA69527003ED8FC /* AppDelegate.h */,
+				A3EB7D671BA69527003ED8FC /* AppDelegate.m */,
+				A3EB7D691BA69527003ED8FC /* ViewController.h */,
+				A3EB7D6A1BA69527003ED8FC /* ViewController.m */,
+				A3EB7D901BA69623003ED8FC /* NGDDDropDown.pch */,
+				A3EB7E691BA6A702003ED8FC /* StringConstant */,
+				A3EB7E621BA6A67E003ED8FC /* BaseDataParser */,
+				A3EB7E5B1BA6A56D003ED8FC /* FileDataFetcher */,
+				A3EB7E571BA6A454003ED8FC /* DateManager */,
+				A3EB7E501BA6A1D7003ED8FC /* Static Content Managers */,
+				A3EB7E401BA6A1A6003ED8FC /* Categories */,
+				A3EB7E3C1BA6A0EC003ED8FC /* Classes */,
+				A3EB7E371BA69993003ED8FC /* Enums */,
+				A3EB7D911BA69758003ED8FC /* Dropdowns */,
+				A3EB7D8B1BA695C6003ED8FC /* DatabaseHelper */,
+				A3EB7D6C1BA69527003ED8FC /* Main.storyboard */,
+				A3EB7D6F1BA69527003ED8FC /* Images.xcassets */,
+				A3EB7D711BA69527003ED8FC /* LaunchScreen.xib */,
+				A3EB7D881BA69587003ED8FC /* NaukriGulf_Static.xcdatamodeld */,
+				A3EB7D621BA69527003ED8FC /* Supporting Files */,
+			);
+			path = NGDDDropDown;
+			sourceTree = "<group>";
+		};
+		A3EB7D621BA69527003ED8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D631BA69527003ED8FC /* Info.plist */,
+				A3EB7D641BA69527003ED8FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3EB7D7B1BA69527003ED8FC /* NGDDDropDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D7E1BA69527003ED8FC /* NGDDDropDownTests.m */,
+				A3EB7D7C1BA69527003ED8FC /* Supporting Files */,
+			);
+			path = NGDDDropDownTests;
+			sourceTree = "<group>";
+		};
+		A3EB7D7C1BA69527003ED8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7D7D1BA69527003ED8FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3EB7D8B1BA695C6003ED8FC /* DatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E391BA6A01D003ED8FC /* NGDatabaseHelper.h */,
+				A3EB7E3A1BA6A01D003ED8FC /* NGDatabaseHelper.m */,
+				A3EB7D8C1BA695C6003ED8FC /* NGDropDownModel.h */,
+				A3EB7D8D1BA695C6003ED8FC /* NGDropDownModel.m */,
+			);
+			path = DatabaseHelper;
+			sourceTree = "<group>";
+		};
+		A3EB7D911BA69758003ED8FC /* Dropdowns */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E021BA6989E003ED8FC /* DropDown */,
+				A3EB7E1C1BA6989E003ED8FC /* DropdownsConfig.plist */,
+				A3EB7D951BA69758003ED8FC /* Modal */,
+			);
+			path = Dropdowns;
+			sourceTree = "<group>";
+		};
+		A3EB7D951BA69758003ED8FC /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A3C096691CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.h */,
+				A3C0966A1CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.m */,
+				A3C0966B1CBBCDBF00C6DB66 /* CompanyName.h */,
+				A3C0966C1CBBCDBF00C6DB66 /* CompanyName.m */,
+				A3C0966D1CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.h */,
+				A3C0966E1CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.m */,
+				A3C0966F1CBBCDBF00C6DB66 /* IndustryAreaMapped.h */,
+				A3C096701CBBCDBF00C6DB66 /* IndustryAreaMapped.m */,
+				A3C096511CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.h */,
+				A3C096521CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.m */,
+				A3C096531CBB97FA00C6DB66 /* FAMapped.h */,
+				A3C096541CBB97FA00C6DB66 /* FAMapped.m */,
+				A3C096551CBB97FA00C6DB66 /* Designation+CoreDataProperties.h */,
+				A3C096561CBB97FA00C6DB66 /* Designation+CoreDataProperties.m */,
+				A3C096571CBB97FA00C6DB66 /* Designation.h */,
+				A3C096581CBB97FA00C6DB66 /* Designation.m */,
+				A3EB7D961BA69758003ED8FC /* DDAlert.h */,
+				A3EB7D971BA69758003ED8FC /* DDAlert.m */,
+				A3EB7D981BA69758003ED8FC /* DDBase.h */,
+				A3EB7D991BA69758003ED8FC /* DDBase.m */,
+				A3EB7D9A1BA69758003ED8FC /* DDCity.h */,
+				A3EB7D9B1BA69758003ED8FC /* DDCity.m */,
+				A3EB7D9C1BA69758003ED8FC /* DDCountry.h */,
+				A3EB7D9D1BA69759003ED8FC /* DDCountry.m */,
+				A3EB7D9E1BA69759003ED8FC /* DDCurrency.h */,
+				A3EB7D9F1BA69759003ED8FC /* DDCurrency.m */,
+				A3EB7DA01BA69759003ED8FC /* DDEmploymentStatus.h */,
+				A3EB7DA11BA69759003ED8FC /* DDEmploymentStatus.m */,
+				A3EB7DA21BA69759003ED8FC /* DDExpMonth.h */,
+				A3EB7DA31BA69759003ED8FC /* DDExpMonth.m */,
+				A3EB7DA41BA69759003ED8FC /* DDExpYear.h */,
+				A3EB7DA51BA69759003ED8FC /* DDExpYear.m */,
+				A3EB7DA61BA69759003ED8FC /* DDFArea.h */,
+				A3EB7DA71BA69759003ED8FC /* DDFArea.m */,
+				A3EB7DA81BA69759003ED8FC /* DDGender.h */,
+				A3EB7DA91BA69759003ED8FC /* DDGender.m */,
+				A3EB7DAA1BA69759003ED8FC /* DDHighestEducation.h */,
+				A3EB7DAB1BA69759003ED8FC /* DDHighestEducation.m */,
+				A3EB7DAC1BA69759003ED8FC /* DDIndustryType.h */,
+				A3EB7DAD1BA69759003ED8FC /* DDIndustryType.m */,
+				A3EB7DAE1BA69759003ED8FC /* DDJobType.h */,
+				A3EB7DAF1BA69759003ED8FC /* DDJobType.m */,
+				A3EB7DB01BA69759003ED8FC /* DDLanguage.h */,
+				A3EB7DB11BA69759003ED8FC /* DDLanguage.m */,
+				A3EB7DB21BA69759003ED8FC /* DDLocation.h */,
+				A3EB7DB31BA69759003ED8FC /* DDLocation.m */,
+				A3EB7DB41BA69759003ED8FC /* DDMaritalStatus.h */,
+				A3EB7DB51BA69759003ED8FC /* DDMaritalStatus.m */,
+				A3EB7DB61BA69759003ED8FC /* DDNationality.h */,
+				A3EB7DB71BA69759003ED8FC /* DDNationality.m */,
+				A3EB7DB81BA69759003ED8FC /* DDNoticePeriod.h */,
+				A3EB7DB91BA69759003ED8FC /* DDNoticePeriod.m */,
+				A3EB7DBA1BA69759003ED8FC /* DDPGCourse.h */,
+				A3EB7DBB1BA69759003ED8FC /* DDPGCourse.m */,
+				A3EB7DBC1BA69759003ED8FC /* DDPGSpec.h */,
+				A3EB7DBD1BA69759003ED8FC /* DDPGSpec.m */,
+				A3EB7DBE1BA69759003ED8FC /* DDPPGCourse.h */,
+				A3EB7DBF1BA69759003ED8FC /* DDPPGCourse.m */,
+				A3EB7DC01BA69759003ED8FC /* DDPPGSpec.h */,
+				A3EB7DC11BA69759003ED8FC /* DDPPGSpec.m */,
+				A3EB7DC21BA69759003ED8FC /* DDPrefLocation.h */,
+				A3EB7DC31BA69759003ED8FC /* DDPrefLocation.m */,
+				A3EB7DC41BA69759003ED8FC /* DDReligion.h */,
+				A3EB7DC51BA69759003ED8FC /* DDReligion.m */,
+				A3EB7DC61BA69759003ED8FC /* DDSalaryLacs.h */,
+				A3EB7DC71BA69759003ED8FC /* DDSalaryLacs.m */,
+				A3EB7DC81BA69759003ED8FC /* DDSalaryRange.h */,
+				A3EB7DC91BA69759003ED8FC /* DDSalaryRange.m */,
+				A3EB7DCA1BA69759003ED8FC /* DDUGCourse.h */,
+				A3EB7DCB1BA69759003ED8FC /* DDUGCourse.m */,
+				A3EB7DCC1BA69759003ED8FC /* DDUGSpec.h */,
+				A3EB7DCD1BA69759003ED8FC /* DDUGSpec.m */,
+				A3EB7DCE1BA69759003ED8FC /* DDWorkLevel.h */,
+				A3EB7DCF1BA69759003ED8FC /* DDWorkLevel.m */,
+				A3EB7DD01BA69759003ED8FC /* DDWorkStatus.h */,
+				A3EB7DD11BA69759003ED8FC /* DDWorkStatus.m */,
+				A3EB7DD21BA69759003ED8FC /* DropDown.h */,
+				A3EB7DD31BA69759003ED8FC /* DropDown.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A3EB7E021BA6989E003ED8FC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				A3C096751CBBD40000C6DB66 /* Comp-IA-Mapping.txt */,
+				A3C096481CBB8AC100C6DB66 /* Desig-FA-Mapping.txt */,
+				A3EB7E031BA6989E003ED8FC /* DDAlert.txt */,
+				A3EB7E041BA6989E003ED8FC /* DDCountry.txt */,
+				A3EB7E051BA6989E003ED8FC /* DDCurrency.txt */,
+				A3EB7E061BA6989E003ED8FC /* DDEmploymentStatus.txt */,
+				A3EB7E071BA6989E003ED8FC /* DDExpMonth.txt */,
+				A3EB7E081BA6989E003ED8FC /* DDExpYear.txt */,
+				A3EB7E091BA6989E003ED8FC /* DDFArea.txt */,
+				A3EB7E0A1BA6989E003ED8FC /* DDGender.txt */,
+				A3EB7E0B1BA6989E003ED8FC /* DDHighestEducation.txt */,
+				A3EB7E0C1BA6989E003ED8FC /* DDIndustryType.txt */,
+				A3EB7E0D1BA6989E003ED8FC /* DDJobType.txt */,
+				A3EB7E0E1BA6989E003ED8FC /* DDLanguage.txt */,
+				A3EB7E0F1BA6989E003ED8FC /* DDLocation.txt */,
+				A3EB7E101BA6989E003ED8FC /* DDMaritalStatus.txt */,
+				A3EB7E111BA6989E003ED8FC /* DDNationality.txt */,
+				A3EB7E121BA6989E003ED8FC /* DDNoticePeriod.txt */,
+				A3EB7E131BA6989E003ED8FC /* DDPGCourse.txt */,
+				A3EB7E141BA6989E003ED8FC /* DDPPGCourse.txt */,
+				A3EB7E151BA6989E003ED8FC /* DDPrefLocation.txt */,
+				A3EB7E161BA6989E003ED8FC /* DDReligion.txt */,
+				A3EB7E171BA6989E003ED8FC /* DDSalaryLacs.txt */,
+				A3EB7E181BA6989E003ED8FC /* DDSalaryRange.txt */,
+				A3EB7E191BA6989E003ED8FC /* DDUGCourse.txt */,
+				A3EB7E1A1BA6989E003ED8FC /* DDWorkLevel.txt */,
+				A3EB7E1B1BA6989E003ED8FC /* DDWorkStatus.txt */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		A3EB7E371BA69993003ED8FC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E381BA69993003ED8FC /* NGEnum.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A3EB7E3C1BA6A0EC003ED8FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E3D1BA6A0EC003ED8FC /* NGConfigUtility.h */,
+				A3EB7E3E1BA6A0EC003ED8FC /* NGConfigUtility.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3EB7E401BA6A1A6003ED8FC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E411BA6A1A6003ED8FC /* NSArray */,
+				A3EB7E441BA6A1A6003ED8FC /* NSDictionary */,
+				A3EB7E491BA6A1A6003ED8FC /* NSString */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A3EB7E411BA6A1A6003ED8FC /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E421BA6A1A6003ED8FC /* NSArray+FetchObject.h */,
+				A3EB7E431BA6A1A6003ED8FC /* NSArray+FetchObject.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		A3EB7E441BA6A1A6003ED8FC /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E451BA6A1A6003ED8FC /* NSDictionary+SetObject.h */,
+				A3EB7E461BA6A1A6003ED8FC /* NSDictionary+SetObject.m */,
+				A3EB7E471BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.h */,
+				A3EB7E481BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		A3EB7E491BA6A1A6003ED8FC /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E4A1BA6A1A6003ED8FC /* NSString+Extra.h */,
+				A3EB7E4B1BA6A1A6003ED8FC /* NSString+Extra.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		A3EB7E501BA6A1D7003ED8FC /* Static Content Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E511BA6A1D7003ED8FC /* BaseStaticContentManager.h */,
+				A3EB7E521BA6A1D7003ED8FC /* BaseStaticContentManager.m */,
+				A3EB7E531BA6A1D7003ED8FC /* NGStaticContentManager.h */,
+				A3EB7E541BA6A1D7003ED8FC /* NGStaticContentManager.m */,
+			);
+			path = "Static Content Managers";
+			sourceTree = "<group>";
+		};
+		A3EB7E571BA6A454003ED8FC /* DateManager */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E581BA6A454003ED8FC /* NGDateManager.h */,
+				A3EB7E591BA6A454003ED8FC /* NGDateManager.m */,
+			);
+			path = DateManager;
+			sourceTree = "<group>";
+		};
+		A3EB7E5B1BA6A56D003ED8FC /* FileDataFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E5C1BA6A56D003ED8FC /* BaseFileDataFetcher.h */,
+				A3EB7E5D1BA6A56D003ED8FC /* BaseFileDataFetcher.m */,
+				A3EB7E5E1BA6A56D003ED8FC /* NGFileDataFetcher.h */,
+				A3EB7E5F1BA6A56D003ED8FC /* NGFileDataFetcher.m */,
+			);
+			path = FileDataFetcher;
+			sourceTree = "<group>";
+		};
+		A3EB7E621BA6A67E003ED8FC /* BaseDataParser */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E631BA6A67E003ED8FC /* BaseDataParser.h */,
+				A3EB7E641BA6A67E003ED8FC /* BaseDataParser.m */,
+				A3EB7E651BA6A67E003ED8FC /* NGStaticContentParser.h */,
+				A3EB7E661BA6A67E003ED8FC /* NGStaticContentParser.m */,
+			);
+			path = BaseDataParser;
+			sourceTree = "<group>";
+		};
+		A3EB7E691BA6A702003ED8FC /* StringConstant */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB7E6A1BA6A702003ED8FC /* StringConstants.h */,
+				A3EB7E6B1BA6A702003ED8FC /* StringConstants.m */,
+			);
+			path = StringConstant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EB7D5E1BA69527003ED8FC /* NGDDDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EB7D821BA69527003ED8FC /* Build configuration list for PBXNativeTarget "NGDDDropDown" */;
+			buildPhases = (
+				A3EB7D5B1BA69527003ED8FC /* Sources */,
+				A3EB7D5C1BA69527003ED8FC /* Frameworks */,
+				A3EB7D5D1BA69527003ED8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGDDDropDown;
+			productName = NGDDDropDown;
+			productReference = A3EB7D5F1BA69527003ED8FC /* NGDDDropDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EB7D771BA69527003ED8FC /* NGDDDropDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EB7D851BA69527003ED8FC /* Build configuration list for PBXNativeTarget "NGDDDropDownTests" */;
+			buildPhases = (
+				A3EB7D741BA69527003ED8FC /* Sources */,
+				A3EB7D751BA69527003ED8FC /* Frameworks */,
+				A3EB7D761BA69527003ED8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EB7D7A1BA69527003ED8FC /* PBXTargetDependency */,
+			);
+			name = NGDDDropDownTests;
+			productName = NGDDDropDownTests;
+			productReference = A3EB7D781BA69527003ED8FC /* NGDDDropDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EB7D571BA69526003ED8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Himanshu;
+				TargetAttributes = {
+					A3EB7D5E1BA69527003ED8FC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A3EB7D771BA69527003ED8FC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A3EB7D5E1BA69527003ED8FC;
+					};
+				};
+			};
+			buildConfigurationList = A3EB7D5A1BA69526003ED8FC /* Build configuration list for PBXProject "NGDDDropDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EB7D561BA69526003ED8FC;
+			productRefGroup = A3EB7D601BA69527003ED8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EB7D5E1BA69527003ED8FC /* NGDDDropDown */,
+				A3EB7D771BA69527003ED8FC /* NGDDDropDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EB7D5D1BA69527003ED8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EB7D6E1BA69527003ED8FC /* Main.storyboard in Resources */,
+				A3EB7E1F1BA6989E003ED8FC /* DDCurrency.txt in Resources */,
+				A3EB7E2F1BA6989E003ED8FC /* DDPrefLocation.txt in Resources */,
+				A3EB7E301BA6989E003ED8FC /* DDReligion.txt in Resources */,
+				A3EB7E1D1BA6989E003ED8FC /* DDAlert.txt in Resources */,
+				A3C096491CBB8AC100C6DB66 /* Desig-FA-Mapping.txt in Resources */,
+				A3EB7E201BA6989E003ED8FC /* DDEmploymentStatus.txt in Resources */,
+				A3EB7E251BA6989E003ED8FC /* DDHighestEducation.txt in Resources */,
+				A3EB7E321BA6989E003ED8FC /* DDSalaryRange.txt in Resources */,
+				A3EB7E241BA6989E003ED8FC /* DDGender.txt in Resources */,
+				A3EB7E351BA6989E003ED8FC /* DDWorkStatus.txt in Resources */,
+				A3EB7E331BA6989E003ED8FC /* DDUGCourse.txt in Resources */,
+				A3EB7E1E1BA6989E003ED8FC /* DDCountry.txt in Resources */,
+				A3EB7D731BA69527003ED8FC /* LaunchScreen.xib in Resources */,
+				A3C096761CBBD40000C6DB66 /* Comp-IA-Mapping.txt in Resources */,
+				A3EB7E361BA6989E003ED8FC /* DropdownsConfig.plist in Resources */,
+				A3EB7E271BA6989E003ED8FC /* DDJobType.txt in Resources */,
+				A3EB7E2A1BA6989E003ED8FC /* DDMaritalStatus.txt in Resources */,
+				A3EB7D701BA69527003ED8FC /* Images.xcassets in Resources */,
+				A3EB7E281BA6989E003ED8FC /* DDLanguage.txt in Resources */,
+				A3EB7E2E1BA6989E003ED8FC /* DDPPGCourse.txt in Resources */,
+				A3EB7E2D1BA6989E003ED8FC /* DDPGCourse.txt in Resources */,
+				A3EB7E221BA6989E003ED8FC /* DDExpYear.txt in Resources */,
+				A3EB7E2B1BA6989E003ED8FC /* DDNationality.txt in Resources */,
+				A3EB7E341BA6989E003ED8FC /* DDWorkLevel.txt in Resources */,
+				A3EB7E231BA6989E003ED8FC /* DDFArea.txt in Resources */,
+				A3EB7E2C1BA6989E003ED8FC /* DDNoticePeriod.txt in Resources */,
+				A3EB7E291BA6989E003ED8FC /* DDLocation.txt in Resources */,
+				A3EB7E311BA6989E003ED8FC /* DDSalaryLacs.txt in Resources */,
+				A3EB7E211BA6989E003ED8FC /* DDExpMonth.txt in Resources */,
+				A3EB7E261BA6989E003ED8FC /* DDIndustryType.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EB7D761BA69527003ED8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EB7D5B1BA69527003ED8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EB7DE91BA69759003ED8FC /* DDHighestEducation.m in Sources */,
+				A3EB7E611BA6A56D003ED8FC /* NGFileDataFetcher.m in Sources */,
+				A3EB7DEF1BA69759003ED8FC /* DDNationality.m in Sources */,
+				A3EB7D6B1BA69527003ED8FC /* ViewController.m in Sources */,
+				A3EB7E5A1BA6A454003ED8FC /* NGDateManager.m in Sources */,
+				A3EB7D8E1BA695C6003ED8FC /* NGDropDownModel.m in Sources */,
+				A3EB7DE81BA69759003ED8FC /* DDGender.m in Sources */,
+				A3EB7DF71BA69759003ED8FC /* DDSalaryLacs.m in Sources */,
+				A3EB7DE21BA69759003ED8FC /* DDCountry.m in Sources */,
+				A3EB7DF11BA69759003ED8FC /* DDPGCourse.m in Sources */,
+				A3EB7E681BA6A67E003ED8FC /* NGStaticContentParser.m in Sources */,
+				A3EB7E4E1BA6A1A6003ED8FC /* NSMutableDictionary+SetObject.m in Sources */,
+				A3EB7D8A1BA69587003ED8FC /* NaukriGulf_Static.xcdatamodeld in Sources */,
+				A3C096731CBBCDBF00C6DB66 /* IndustryAreaMapped+CoreDataProperties.m in Sources */,
+				A3EB7E3F1BA6A0EC003ED8FC /* NGConfigUtility.m in Sources */,
+				A3EB7E671BA6A67E003ED8FC /* BaseDataParser.m in Sources */,
+				A3C0965A1CBB97FA00C6DB66 /* FAMapped.m in Sources */,
+				A3EB7DF41BA69759003ED8FC /* DDPPGSpec.m in Sources */,
+				A3C0965C1CBB97FA00C6DB66 /* Designation.m in Sources */,
+				A3EB7E6C1BA6A702003ED8FC /* StringConstants.m in Sources */,
+				A3EB7DF31BA69759003ED8FC /* DDPPGCourse.m in Sources */,
+				A3EB7DFD1BA69759003ED8FC /* DropDown.m in Sources */,
+				A3EB7DF81BA69759003ED8FC /* DDSalaryRange.m in Sources */,
+				A3EB7E601BA6A56D003ED8FC /* BaseFileDataFetcher.m in Sources */,
+				A3EB7DFC1BA69759003ED8FC /* DDWorkStatus.m in Sources */,
+				A3C096721CBBCDBF00C6DB66 /* CompanyName.m in Sources */,
+				A3EB7DF91BA69759003ED8FC /* DDUGCourse.m in Sources */,
+				A3EB7D681BA69527003ED8FC /* AppDelegate.m in Sources */,
+				A3C096591CBB97FA00C6DB66 /* FAMapped+CoreDataProperties.m in Sources */,
+				A3EB7E561BA6A1D7003ED8FC /* NGStaticContentManager.m in Sources */,
+				A3EB7DEC1BA69759003ED8FC /* DDLanguage.m in Sources */,
+				A3EB7E4C1BA6A1A6003ED8FC /* NSArray+FetchObject.m in Sources */,
+				A3EB7DEB1BA69759003ED8FC /* DDJobType.m in Sources */,
+				A3EB7DE31BA69759003ED8FC /* DDCurrency.m in Sources */,
+				A3C0965B1CBB97FA00C6DB66 /* Designation+CoreDataProperties.m in Sources */,
+				A3EB7DE71BA69759003ED8FC /* DDFArea.m in Sources */,
+				A3EB7DFB1BA69759003ED8FC /* DDWorkLevel.m in Sources */,
+				A3EB7DF21BA69759003ED8FC /* DDPGSpec.m in Sources */,
+				A3EB7DDF1BA69759003ED8FC /* DDAlert.m in Sources */,
+				A3EB7DF61BA69759003ED8FC /* DDReligion.m in Sources */,
+				A3EB7DE11BA69759003ED8FC /* DDCity.m in Sources */,
+				A3EB7DEE1BA69759003ED8FC /* DDMaritalStatus.m in Sources */,
+				A3EB7DF01BA69759003ED8FC /* DDNoticePeriod.m in Sources */,
+				A3EB7DED1BA69759003ED8FC /* DDLocation.m in Sources */,
+				A3EB7DFA1BA69759003ED8FC /* DDUGSpec.m in Sources */,
+				A3EB7E3B1BA6A01D003ED8FC /* NGDatabaseHelper.m in Sources */,
+				A3EB7E4D1BA6A1A6003ED8FC /* NSDictionary+SetObject.m in Sources */,
+				A3C096741CBBCDBF00C6DB66 /* IndustryAreaMapped.m in Sources */,
+				A3EB7DE41BA69759003ED8FC /* DDEmploymentStatus.m in Sources */,
+				A3EB7DE01BA69759003ED8FC /* DDBase.m in Sources */,
+				A3C096711CBBCDBF00C6DB66 /* CompanyName+CoreDataProperties.m in Sources */,
+				A3EB7DF51BA69759003ED8FC /* DDPrefLocation.m in Sources */,
+				A3EB7D651BA69527003ED8FC /* main.m in Sources */,
+				A3EB7DE61BA69759003ED8FC /* DDExpYear.m in Sources */,
+				A3EB7E551BA6A1D7003ED8FC /* BaseStaticContentManager.m in Sources */,
+				A3EB7DE51BA69759003ED8FC /* DDExpMonth.m in Sources */,
+				A3EB7E4F1BA6A1A6003ED8FC /* NSString+Extra.m in Sources */,
+				A3EB7DEA1BA69759003ED8FC /* DDIndustryType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EB7D741BA69527003ED8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EB7D7F1BA69527003ED8FC /* NGDDDropDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EB7D7A1BA69527003ED8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EB7D5E1BA69527003ED8FC /* NGDDDropDown */;
+			targetProxy = A3EB7D791BA69527003ED8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EB7D6C1BA69527003ED8FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EB7D6D1BA69527003ED8FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EB7D711BA69527003ED8FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EB7D721BA69527003ED8FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EB7D801BA69527003ED8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3EB7D811BA69527003ED8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EB7D831BA69527003ED8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NGDDDropDown/NGDDDropDown.pch";
+				INFOPLIST_FILE = NGDDDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3EB7D841BA69527003ED8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NGDDDropDown/NGDDDropDown.pch";
+				INFOPLIST_FILE = NGDDDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3EB7D861BA69527003ED8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGDDDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGDDDropDown.app/NGDDDropDown";
+			};
+			name = Debug;
+		};
+		A3EB7D871BA69527003ED8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGDDDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGDDDropDown.app/NGDDDropDown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EB7D5A1BA69526003ED8FC /* Build configuration list for PBXProject "NGDDDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EB7D801BA69527003ED8FC /* Debug */,
+				A3EB7D811BA69527003ED8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EB7D821BA69527003ED8FC /* Build configuration list for PBXNativeTarget "NGDDDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EB7D831BA69527003ED8FC /* Debug */,
+				A3EB7D841BA69527003ED8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EB7D851BA69527003ED8FC /* Build configuration list for PBXNativeTarget "NGDDDropDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EB7D861BA69527003ED8FC /* Debug */,
+				A3EB7D871BA69527003ED8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3EB7D881BA69587003ED8FC /* NaukriGulf_Static.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3C0964A1CBB8C1A00C6DB66 /* NaukriGulf_Static_2(11Feb16).xcdatamodel */,
+				A3EB7D891BA69587003ED8FC /* NaukriGulf_Static.xcdatamodel */,
+			);
+			currentVersion = A3C0964A1CBB8C1A00C6DB66 /* NaukriGulf_Static_2(11Feb16).xcdatamodel */;
+			name = NaukriGulf_Static.xcdatamodeld;
+			path = Model/NaukriGulf_Static.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3EB7D571BA69526003ED8FC /* Project object */;
+}

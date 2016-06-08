@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>SEARCH</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>SSA</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>JD</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>RECENT SEARCH COUNT</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EMAIL JOB</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>FEEDBACK</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>MODIFY SSA</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>CUSTOM QUESTIONS</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>LOGIN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>UPDATE INFO NOTIFICATION</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>RECOMMENDED JOBS</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>USER DETAILS</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>LOGOUT</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>UNREG APPLY</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>LOGGED IN APPLY</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>APPLIED JOBS</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>WHO VIEWED MY CV</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>GET NOTIFICATION</string>
+		<key>DeviceToken</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>RESET NOTIFICATION</string>
+		<key>DeviceToken</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>DELETE PUSH COUNT</string>
+		<key>DeviceToken</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>UPDATE RESUME</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>DELETE RESUME</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>MNJ INCOMPLETE SECTION</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>SIM JOBS PAGINATION</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>FORGET PASSWORD</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>CHECK REGISTERED USER</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>MIS JD</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>PROFILE PHOTO</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>UPLOAD PHOTO</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>ERROR LOGGING</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<true/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>DELETE PHOTO</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+	<dict>
+		<key>AuthID</key>
+		<false/>
+		<key>ClientID</key>
+		<true/>
+		<key>Api Name</key>
+		<string>EXCHANGE TOKEN</string>
+	</dict>
+</array>
+</plist>

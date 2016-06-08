@@ -1,0 +1,1 @@
+{"EmploymentPreference":[{"value":"0","label":"No Preference"},{"value":"1","label":"Part time"},{"value":"2","label":"Full time"}]}

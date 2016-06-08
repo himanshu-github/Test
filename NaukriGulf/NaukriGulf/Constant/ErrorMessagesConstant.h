@@ -1,0 +1,61 @@
+//
+//  ErrorMessagesConstant.h
+//  NaukriGulf
+//
+//  Created by Ayush Goel on 30/06/15.
+//  Copyright (c) 2015 Infoedge. All rights reserved.
+//
+
+
+extern NSString * const ERROR_MESSAGE_NOTHING;
+extern NSString * const ERROR_MESSAGE_VALID_EMAIL;
+extern NSString * const ERROR_MESSAGE_VALID_PASSWORD;
+extern NSString * const ERROR_MESSAGE_DUPLICATE_APPLY;
+extern NSString * const ERROR_MESSAGE_EMPTY_EMAIL;
+extern NSString * const ERROR_MESSAGE_EMPTY_MOBILE;
+extern NSString * const ERROR_MESSAGE_EMPTY_NAME;
+extern NSString * const ERROR_MESSAGE_EMPTY_WORK_EXP;
+extern NSString * const ERROR_MESSAGE_EMPTY_GENDER;
+extern NSString * const ERROR_MESSAGE_EMPTY_DESIGNATION;
+extern NSString * const ERROR_MESSAGE_EMPTY_COUNTRY;
+extern NSString * const ERROR_MESSAGE_EMPTY_CITY;
+extern NSString * const ERROR_MESSAGE_EMPTY_OTHER_CITY;
+extern NSString * const ERROR_MESSAGE_EMPTY_NATIONALITY;
+extern NSString * const ERROR_MESSAGE_EMPTY_PASSWORD;
+extern NSString * const ERROR_MESSAGE_EMPTY_CURRENT_PASSWORD;
+extern NSString * const ERROR_MESSAGE_EMPTY_NEW_PASSWORD;
+extern NSString * const ERROR_MESSAGE_PASSWORD_MISMATCH;
+extern NSString * const ERROR_MESSAGE_EMPTY_SALARY;
+extern NSString * const ERROR_MESSAGE_EMPTY_DOB ;
+extern NSString * const ERROR_MESSAGE_EMPTY_LANGUAGES;
+extern NSString * const ERROR_MESSAGE_EMPTY_INDUSTRY_TYPE;
+extern NSString * const ERROR_MESSAGE_EMPTY_FAREA;
+extern NSString * const ERROR_MESSAGE_EMPTY_BASIC_COURSE ;
+extern NSString * const ERROR_MESSAGE_EMPTY_OTHER_BASIC_COURSE;
+extern NSString * const ERROR_MESSAGE_EMPTY_BASIC_SPECIALIZATION;
+extern NSString * const ERROR_MESSAGE_EMPTY_OTHER_BASIC_SPECIALIZATION;
+extern NSString * const ERROR_MESSAGE_EMPTY_YEAR_OF_GRADUATION;
+extern NSString * const ERROR_MESSAGE_EMPTY_KEYWORDS;
+extern NSString * const ERROR_MESSAGE_EMPTY_ORGANIZATION;
+extern NSString * const ERROR_MESSAGE_EMPTY_START_WORKING_DATE;
+extern NSString * const ERROR_MESSAGE_EMPTY_TILL_WORKING_DATE;
+extern NSString * const ERROR_MESSAGE_VALID_TILL_WORKING_DATE;
+extern NSString * const ERROR_MESSAGE_EMPTY_CV_HEADLINE;
+extern NSString * const ERROR_MESSAGE_EMPTY_KEY_SKILL ;
+extern NSString * const ERROR_MESSAGE_EMPTY_VISA_DATE;
+extern NSString * const ERROR_MESSAGE_EMPTY_DRIVING_LICENSE;
+extern NSString * const ERROR_MESSAGE_EMAIL_NOT_IN_DATABASE;
+
+extern NSString * const ERROR_MESSAGE;
+extern NSString * const ERROR_RESPONSE;
+extern NSString * const ERROR_SESSION_EXPIRE;
+
+extern NSString * const ERROR_MESSAGE_EMAIL_NOT_IN_DATABASE_FROM_SERVER;
+
+
+extern NSString * const K_ERROR_MESSAGE_EMPTY_STRING;
+extern NSString * const K_ERROR_MESSAGE_ONLY_ALPHABETS_STRING;
+extern NSString * const K_ERROR_MESSAGE_ONLY_NUMERIC_STRING;
+extern NSString * const K_ERROR_MESSAGE_MOBILE_NUMBER_DIGITS;
+extern NSString * const K_ERROR_MESSAGE_MOBILE_NUMBER_STARTING_DIGITS ;
+extern NSString * const K_ERROR_MESSAGE_SPECIAL_CHARACTER;

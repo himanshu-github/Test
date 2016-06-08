@@ -1,0 +1,1 @@
+{"MaritalStatus":[{"value":"1","label":"Single"},{"value":"2","label":"Married"},{"value":"3","label":"Divorced"},{"value":"4","label":"Widow(er)"},{"value":"5","label":"Other"}]}

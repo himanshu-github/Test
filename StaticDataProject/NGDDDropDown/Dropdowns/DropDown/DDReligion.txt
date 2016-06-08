@@ -1,0 +1,1 @@
+{"Religion":[{"value":"1","label":"Islam"},{"value":"2","label":"Christianity"},{"value":"3","label":"Hinduism"},{"value":"4","label":"Budhhism"},{"value":"5","label":"Jainism"},{"value":"6","label":"Zoroastrianism"},{"value":"7","label":"Sikhism"},{"value":"8","label":"Judaism"},{"value":"10","label":"Do not wish to disclose"},{"value":"1000","label":"Other"}]}

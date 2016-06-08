@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DDAlert" representedClassName="DDAlert" parentEntity="DDBase" syncable="YES">
+        <attribute name="valueLabel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDBase" representedClassName="DDBase" syncable="YES">
+        <attribute name="descriptionText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selectionLimit" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="sortedID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="valueID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="valueName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDCity" representedClassName="DDCity" parentEntity="DDBase" syncable="YES">
+        <relationship name="country" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDCountry" inverseName="cities" inverseEntity="DDCountry" syncable="YES"/>
+    </entity>
+    <entity name="DDCountry" representedClassName="DDCountry" parentEntity="DDBase" syncable="YES">
+        <relationship name="cities" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DDCity" inverseName="country" inverseEntity="DDCity" syncable="YES"/>
+    </entity>
+    <entity name="DDCurrency" representedClassName="DDCurrency" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDEmploymentStatus" representedClassName="DDEmploymentStatus" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDExpMonth" representedClassName="DDExpMonth" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDExpYear" representedClassName="DDExpYear" parentEntity="DDBase" syncable="YES">
+        <attribute name="disableValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDFArea" representedClassName="DDFArea" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDGender" representedClassName="DDGender" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDHighestEducation" representedClassName="DDHighestEducation" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDIndustryType" representedClassName="DDIndustryType" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDJobType" representedClassName="DDJobType" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDLanguage" representedClassName="DDLanguage" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDLocation" representedClassName="DDLocation" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDMaritalStatus" representedClassName="DDMaritalStatus" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDNationality" representedClassName="DDNationality" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDNoticePeriod" representedClassName="DDNoticePeriod" parentEntity="DDBase" syncable="YES">
+        <attribute name="serverID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDPGCourse" representedClassName="DDPGCourse" parentEntity="DDBase" syncable="YES">
+        <relationship name="specs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDPGSpec" inverseName="course" inverseEntity="DDPGSpec" syncable="YES"/>
+    </entity>
+    <entity name="DDPGSpec" representedClassName="DDPGSpec" parentEntity="DDBase" syncable="YES">
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DDPGCourse" inverseName="specs" inverseEntity="DDPGCourse" syncable="YES"/>
+    </entity>
+    <entity name="DDPPGCourse" representedClassName="DDPPGCourse" parentEntity="DDBase" syncable="YES">
+        <relationship name="specs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDPPGSpec" inverseName="course" inverseEntity="DDPPGSpec" syncable="YES"/>
+    </entity>
+    <entity name="DDPPGSpec" representedClassName="DDPPGSpec" parentEntity="DDBase" syncable="YES">
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DDPPGCourse" inverseName="specs" inverseEntity="DDPPGCourse" syncable="YES"/>
+    </entity>
+    <entity name="DDPrefLocation" representedClassName="DDPrefLocation" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDReligion" representedClassName="DDReligion" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDSalaryLacs" representedClassName="DDSalaryLacs" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDSalaryRange" representedClassName="DDSalaryRange" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDUGCourse" representedClassName="DDUGCourse" parentEntity="DDBase" syncable="YES">
+        <relationship name="specs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDUGSpec" inverseName="course" inverseEntity="DDUGSpec" syncable="YES"/>
+    </entity>
+    <entity name="DDUGSpec" representedClassName="DDUGSpec" parentEntity="DDBase" syncable="YES">
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DDUGCourse" inverseName="specs" inverseEntity="DDUGCourse" syncable="YES"/>
+    </entity>
+    <entity name="DDWorkLevel" representedClassName="DDWorkLevel" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DDWorkStatus" representedClassName="DDWorkStatus" parentEntity="DDBase" syncable="YES"/>
+    <entity name="DropDown" representedClassName="DropDown" syncable="YES">
+        <attribute name="dependentClassName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dropdownID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverData" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="serviceName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="JobDetailsCoreData" representedClassName="JobDetailsCoreData" syncable="YES">
+        <attribute name="appliedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyProfile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactDesignation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactWebsite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dcProfile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="education" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="functionalArea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industryType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAlreadyApplied" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCtcHidden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isEmailHiddden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isWebjob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keywords" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestPostedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxCtc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxExp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minCtc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minExp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nationality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showLogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vacancies" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MNJProfileCoreData" representedClassName="NGMNJProfileCoreData" syncable="YES">
+        <attribute name="profileData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="NGApplyFieldsCoreData" representedClassName="NGApplyFieldsCoreData" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="currentCompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentDesignation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="doctSpecialization" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="emailId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fresher" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gradCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="gradspecialisation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mobileNumebr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nationality" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="pgCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="pgSpecialisation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="workEx" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="NGExceptionCoreData" representedClassName="NGExceptionCoreData" syncable="YES">
+        <attribute name="exceptionDebugDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exceptionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NGServerErrorCoreData" representedClassName="NGServerErrorCoreData" syncable="YES">
+        <attribute name="errorDesription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errorType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProfileViewCoreData" representedClassName="ProfileViewCoreData" syncable="YES">
+        <attribute name="compLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentViewDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileViewedDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ResmanCoreData" representedClassName="ResmanCoreData" syncable="YES">
+        <attribute name="alertSetting" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="alternateEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="availabilityToJoin" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="currentSalary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cvHeadline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dlIssuedBy" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="functionalArea" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="highestEducation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="isCVUploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDLPresent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isFresher" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isHoldingDL" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isOtherCity" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="keySkills" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="languages" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="maritalStatus" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mobileNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nationality" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="otherReligion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pgCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="pgSpec" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="ppgCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="ppgSpec" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="preferredLoc" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="prevDesignation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousCompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="religion" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="totalExp" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="ugCourse" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="ugSpec" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visaStatus" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="visaValidity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SRPTuplesCoreData" representedClassName="SRPTuplesCoreData" syncable="YES">
+        <attribute name="cmpnyID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpnyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFeaturedEmployer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPremiumJob" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isQuickWebJob" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTopEmployer" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTopEmployerLite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isWebJob" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jdURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobType" optional="YES" attributeType="String" defaultValueString="SJ" indexed="YES" syncable="YES"/>
+        <attribute name="latestPostDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxExp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minExp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srpDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tELogoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vacancy" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JobDetailsCoreData" positionX="0" positionY="0" width="128" height="525"/>
+        <element name="MNJProfileCoreData" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="NGApplyFieldsCoreData" positionX="9" positionY="153" width="128" height="298"/>
+        <element name="NGExceptionCoreData" positionX="0" positionY="153" width="128" height="88"/>
+        <element name="NGServerErrorCoreData" positionX="9" positionY="162" width="128" height="73"/>
+        <element name="ProfileViewCoreData" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="ResmanCoreData" positionX="9" positionY="153" width="128" height="705"/>
+        <element name="SRPTuplesCoreData" positionX="0" positionY="0" width="128" height="360"/>
+        <element name="DDUGSpec" positionX="9" positionY="243" width="128" height="28"/>
+        <element name="DDCountry" positionX="18" positionY="252" width="128" height="28"/>
+        <element name="DDFArea" positionX="27" positionY="261" width="128" height="43"/>
+        <element name="DDJobType" positionX="45" positionY="270" width="128" height="43"/>
+        <element name="DDPPGCourse" positionX="63" positionY="279" width="128" height="28"/>
+        <element name="DDMaritalStatus" positionX="81" positionY="288" width="128" height="43"/>
+        <element name="DDEmploymentStatus" positionX="99" positionY="297" width="128" height="43"/>
+        <element name="DDSalaryRange" positionX="54" positionY="243" width="128" height="43"/>
+        <element name="DDAlert" positionX="63" positionY="252" width="128" height="60"/>
+        <element name="DDWorkLevel" positionX="72" positionY="261" width="128" height="43"/>
+        <element name="DDHighestEducation" positionX="81" positionY="270" width="128" height="43"/>
+        <element name="DDSalaryLacs" positionX="90" positionY="279" width="128" height="43"/>
+        <element name="DDWorkStatus" positionX="99" positionY="288" width="128" height="43"/>
+        <element name="DDCity" positionX="108" positionY="297" width="128" height="28"/>
+        <element name="DDLanguage" positionX="54" positionY="243" width="128" height="43"/>
+        <element name="DDLocation" positionX="63" positionY="252" width="128" height="43"/>
+        <element name="DDNationality" positionX="72" positionY="261" width="128" height="43"/>
+        <element name="DDBase" positionX="81" positionY="270" width="128" height="135"/>
+        <element name="DDPGCourse" positionX="90" positionY="279" width="128" height="28"/>
+        <element name="DDPrefLocation" positionX="99" positionY="288" width="128" height="43"/>
+        <element name="DDReligion" positionX="108" positionY="297" width="128" height="43"/>
+        <element name="DDUGCourse" positionX="54" positionY="243" width="128" height="28"/>
+        <element name="DropDown" positionX="63" positionY="252" width="128" height="150"/>
+        <element name="DDExpYear" positionX="72" positionY="261" width="128" height="60"/>
+        <element name="DDNoticePeriod" positionX="81" positionY="270" width="128" height="60"/>
+        <element name="DDPPGSpec" positionX="90" positionY="279" width="128" height="28"/>
+        <element name="DDCurrency" positionX="99" positionY="288" width="128" height="43"/>
+        <element name="DDExpMonth" positionX="108" positionY="297" width="128" height="43"/>
+        <element name="DDIndustryType" positionX="54" positionY="243" width="128" height="43"/>
+        <element name="DDGender" positionX="63" positionY="252" width="128" height="43"/>
+        <element name="DDPGSpec" positionX="72" positionY="261" width="128" height="28"/>
+    </elements>
+</model>
