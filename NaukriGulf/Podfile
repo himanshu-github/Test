@@ -8,7 +8,7 @@ pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 pod 'GoogleConversionTracking', '~> 3.2'
 pod 'GoogleSignIn'
-plugin 'slather'
+#plugin 'slather'
 
 end
 target 'NaukriGulfTestsCases' do
