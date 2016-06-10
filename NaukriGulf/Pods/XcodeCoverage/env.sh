@@ -1,0 +1,5 @@
+export BUILT_PRODUCTS_DIR="/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/NaukriGulf-gnvdmuzxzizxcbbtnnynskodftib/Build/Intermediates/CodeCoverage/Products/Live_NO_GA-iphonesimulator"
+export CURRENT_ARCH="x86_64"
+export OBJECT_FILE_DIR_normal="/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/NaukriGulf-gnvdmuzxzizxcbbtnnynskodftib/Build/Intermediates/CodeCoverage/Intermediates/NaukriGulf.build/Live_NO_GA-iphonesimulator/NaukriGulf.build/Objects-normal"
+export OBJROOT="/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/NaukriGulf-gnvdmuzxzizxcbbtnnynskodftib/Build/Intermediates/CodeCoverage/Intermediates"
+export SRCROOT="/Users/Shared/Jenkins/Desktop/GitNG/NaukriGulf"
