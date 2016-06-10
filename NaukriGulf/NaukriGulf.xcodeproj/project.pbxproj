@@ -6460,7 +6460,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92f3a21d-7775-4935-8a96-51776bc04eca";
+				PROVISIONING_PROFILE = "58bee0d7-7cef-43f8-bfee-1bfa4c9e6b27";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -6506,7 +6506,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "d87eabaf-18af-4eaf-b2c7-ea0f344c4a2b";
+				PROVISIONING_PROFILE = "9d26e27c-a939-4046-86cd-773336745d66";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -6709,7 +6709,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92f3a21d-7775-4935-8a96-51776bc04eca";
+				PROVISIONING_PROFILE = "58bee0d7-7cef-43f8-bfee-1bfa4c9e6b27";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -6755,7 +6755,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "d87eabaf-18af-4eaf-b2c7-ea0f344c4a2b";
+				PROVISIONING_PROFILE = "9d26e27c-a939-4046-86cd-773336745d66";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -6958,7 +6958,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92f3a21d-7775-4935-8a96-51776bc04eca";
+				PROVISIONING_PROFILE = "58bee0d7-7cef-43f8-bfee-1bfa4c9e6b27";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -7004,7 +7004,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "d87eabaf-18af-4eaf-b2c7-ea0f344c4a2b";
+				PROVISIONING_PROFILE = "9d26e27c-a939-4046-86cd-773336745d66";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -7167,7 +7167,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92f3a21d-7775-4935-8a96-51776bc04eca";
+				PROVISIONING_PROFILE = "58bee0d7-7cef-43f8-bfee-1bfa4c9e6b27";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -7213,7 +7213,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.NaukriGulf.watchkitapp2.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "d87eabaf-18af-4eaf-b2c7-ea0f344c4a2b";
+				PROVISIONING_PROFILE = "9d26e27c-a939-4046-86cd-773336745d66";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
