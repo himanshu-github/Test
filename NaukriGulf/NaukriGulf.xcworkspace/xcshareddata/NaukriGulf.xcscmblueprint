@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "40EAD072D8D9E12D12165AC3C91162456ADE63B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "40EAD072D8D9E12D12165AC3C91162456ADE63B8" : 0,
+    "A2BCD177ED76861380A889D41C5B8039E15D4C2D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E641A97-988F-4AD2-8A83-FE7DDB11347A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "40EAD072D8D9E12D12165AC3C91162456ADE63B8" : "GitNG\/",
+    "A2BCD177ED76861380A889D41C5B8039E15D4C2D" : "NaukriGulf"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NaukriGulf",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NaukriGulf\/NaukriGulf.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/himanshu-github\/Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40EAD072D8D9E12D12165AC3C91162456ADE63B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gitlab.infoedge.com\/naukrigulf\/iosapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2BCD177ED76861380A889D41C5B8039E15D4C2D"
+    }
+  ]
+}

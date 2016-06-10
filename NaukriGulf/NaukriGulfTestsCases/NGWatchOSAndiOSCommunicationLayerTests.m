@@ -119,34 +119,34 @@
     
 }
 
-- (void)testGetRecoJob
-{
-    WatchOSAndiOSCommunicationLayer *instance = [WatchOSAndiOSCommunicationLayer sharedInstance];
-    
-    NGStaticContentManager *jobMgrObj = [DataManagerFactory getStaticContentManager];
-    NSArray *jobsArr = [jobMgrObj getAllRecommendedJobs];
-    
-    NGJobDetails *jobDet = [jobsArr firstObject];
-    
-    NSMutableDictionary* myDict = [instance getRecoJob:jobDet];
-    
-    XCTAssertEqual(myDict[@"Designation"], jobDet.designation, @"");
-    XCTAssertEqual(myDict[@"Location"], jobDet.location, @"");
-    
-    NSDictionary *minMaxDict = [NSDictionary dictionaryWithObjectsAndKeys:jobDet.minExp,@"Min",jobDet.maxExp,@"Max", nil];
-    XCTAssertEqualObjects(myDict[@"Experience"], minMaxDict);
-    
-    NSDictionary *companyDict = [NSDictionary dictionaryWithObjectsAndKeys:jobDet.cmpnyName,@"Name",jobDet.cmpnyID,@"Id", nil];
-    XCTAssertEqualObjects(myDict[@"Company"], companyDict);
-    
-    XCTAssertEqual(myDict[@"JobId"], jobDet.jobID);
-    XCTAssertEqualObjects(myDict[@"IsWebJob"], jobDet.isWebJob?@"true":@"false");
-    
-    NSString *isAlreadyApplied = [NSString stringWithFormat:@"%i",jobDet.isAlreadyApplied];
-    XCTAssertEqual(myDict[@"IsApplied"], isAlreadyApplied);
-    
-}
-
+//- (void)testGetRecoJob
+//{
+//    WatchOSAndiOSCommunicationLayer *instance = [WatchOSAndiOSCommunicationLayer sharedInstance];
+//    
+//    NGStaticContentManager *jobMgrObj = [DataManagerFactory getStaticContentManager];
+//    NSArray *jobsArr = [jobMgrObj getAllRecommendedJobs];
+//    
+//    NGJobDetails *jobDet = [jobsArr firstObject];
+//    
+//    NSMutableDictionary* myDict = [instance getRecoJob:jobDet];
+//    
+//    XCTAssertEqual(myDict[@"Designation"], jobDet.designation, @"");
+//    XCTAssertEqual(myDict[@"Location"], jobDet.location, @"");
+//    
+//    NSDictionary *minMaxDict = [NSDictionary dictionaryWithObjectsAndKeys:jobDet.minExp,@"Min",jobDet.maxExp,@"Max", nil];
+//    XCTAssertEqualObjects(myDict[@"Experience"], minMaxDict);
+//    
+//    NSDictionary *companyDict = [NSDictionary dictionaryWithObjectsAndKeys:jobDet.cmpnyName,@"Name",jobDet.cmpnyID,@"Id", nil];
+//    XCTAssertEqualObjects(myDict[@"Company"], companyDict);
+//    
+//    XCTAssertEqual(myDict[@"JobId"], jobDet.jobID);
+//    XCTAssertEqualObjects(myDict[@"IsWebJob"], jobDet.isWebJob?@"true":@"false");
+//    
+//    NSString *isAlreadyApplied = [NSString stringWithFormat:@"%i",jobDet.isAlreadyApplied];
+//    XCTAssertEqual(myDict[@"IsApplied"], isAlreadyApplied);
+//    
+//}
+//
 - (void)testParseCVViewsForWatch
 {
     WatchOSAndiOSCommunicationLayer *instance = [WatchOSAndiOSCommunicationLayer sharedInstance];
