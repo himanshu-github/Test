@@ -1,1 +1,0 @@
-{"VisaStatus":[{"value":"1","label":"Citizen"},{"value":"2","label":"Visit Visa"},{"value":"3","label":"Transit Visa"},{"value":"4","label":"Student Visa"},{"value":"5","label":"Residence Visa-Company Sponsorship"},{"value":"6","label":"Residence Visa-Personal Sponsorship"},{"value":"7","label":"Other"}]}

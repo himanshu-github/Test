@@ -1,1 +1,0 @@
-{"Locations":["United Arab Emirates (UAE)","Dubai","Abu Dhabi","Sharjah","Saudi Arabia (KSA)","Riyadh","Jeddah","Dammam Khobar","Bahrain","Kuwait","Qatar","Oman","Other"]}

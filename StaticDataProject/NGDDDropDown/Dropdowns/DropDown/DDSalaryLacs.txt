@@ -1,1 +1,0 @@
-{"ctc":[{"value":"0","label":"Below USD 1000"},{"value":"1","label":"USD 1001 \u2013 2000"},{"value":"2","label":"USD 2001 \u2013 3000"},{"value":"3","label":"USD 3001 \u2013 5000"},{"value":"4","label":"USD 5001 \u2013 7000"},{"value":"5","label":"USD 7001 \u2013 10000"},{"value":"6","label":"Above USD 10000"},{"value":"30","label":"Not Mentioned"}]}

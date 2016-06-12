@@ -1,1 +1,0 @@
-{"WorkLevel":[{"value":"4","label":"Student \/ Intern"},{"value":"1","label":"Entry Level"},{"value":"2","label":"Non Managerial Level"},{"value":"3","label":"Managerial Level"},{"value":"5","label":"Senior Management (AVP , VP , GM)"},{"value":"6","label":"Top Management (CEO , CFO , Director)"}]}
